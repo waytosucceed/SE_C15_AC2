@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Introduction to Percentages</div>
+
+        
+          <div>
+           
+            <p>
+              A percentage is a mathematical concept that represents a number as a fraction of 100. The term “percentage” comes from the Latin “per centum,” meaning “by the hundred.” The symbol for percentage is “%.” Understanding percentages is fundamental in many areas, including finance, statistics, and general arithmetic.
+            </p>
+            <h2>Percentage :</h2>
+            <p>
+              A percentage is a way of expressing a number as a fraction of 100. The symbol used for percentage is “%”. For example, saying “25%” is equivalent to <math><mfrac bevelled="true"><mfrac><msup><mi>25</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math>  or 25 per 100.
+            </p>
+            <h2>Converting Percentages to Fractions</h2>
+           <p>
+            To convert a percentage to a fraction, simply write the percentage number over 100 and simplify if necessary.
+           </p>
+           <h3>Example 1:</h3>
+           <p>
+            Convert 75% to a fraction.
+            <br><br><math><mfrac bevelled="true"><mfrac><msup><mi>75</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>75</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math>
+            <br>Simplify the fraction by dividing both the numerator and the denominator by their greatest common divisor, which is 25 in this case:
+            <br><math><mfrac bevelled="true"><mfrac><msup><mi>75</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>75 ÷ 25</mi></msup></mfrac><mfrac><msup><mi>100 ÷ 25</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>
+           </p>
+          <h2>Converting Fractions to Percentages</h2>
+          <p>
+            To convert a fraction to a percentage, multiply the fraction by 100 and add the % sign.
+          </p>
+          <h3>Example 2:</h3>
+          <p>
+            Convert <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> to a percentage.
+            <br>Multiply by 100 to get the percentage: (<math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> × 100)% = <math><mfrac bevelled="true"><mfrac><msup><mi>300</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>% = 75%.
+          </p>
+          <h2>Converting Percentages to Decimals</h2>
+          <p>
+            To convert a percentage into a decimal, simply divide the percentage by 100. Then divide numerator by denominator to get the decimal number.  This is equivalent to moving the decimal point two places to the left.
+          </p>
+          <h3>
+            
+Steps to Convert from Percentage to Decimal:
+
+          </h3>
+          <ol>
+            <li>Take the percentage value.</li>
+            <li>Divide by 100 or move the decimal point two places to the left.</li>
+          </ol>
+          <h3>Example:          </h3>
+          <p>
+            Convert 75% to a decimal.
+          </p>
+          <ul>
+            <li>75% means 75 per 100.</li>
+            <li>As a decimal: <math><mfrac bevelled="true"><mfrac><msup><mi>75</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> = 0.75</li>
+          </ul>
+          <h2>Converting Decimals to Percentages</h2>
+          <p>
+            To convert a decimal to a percentage, do the reverse of the conversion from percentage to decimal: multiply the decimal by 100. This effectively moves the decimal point two places to the right, turning it into a percentage.
+          </p>
+          <h3>Steps to Convert from Decimal to Percentage:</h3>
+          <ol>
+            <li>Take the decimal number.</li>
+            <li>Multiply by 100.</li>
+            <li>Add the percentage sign (%) at the end.</li>
+          </ol>
+          <h3>Example:</h3>
+          <p>Convert 0.32 to a percentage.</p>
+          <ul>
+            <li>Multiply 0.32 by 100: (0.32 × 100)% = 32%</li>
+          </ul>
+          <hr>
+          <h2>Summary Table:</h2>
+          <img src="./assests/explaination/1.png" alt="" width="80%">
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

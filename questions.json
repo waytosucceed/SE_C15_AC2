@@ -1,0 +1,122 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "Convert 45% to a fraction.",
+    "options": [
+      "./optionImg/1.jpg",
+      "./optionImg/2.jpg",
+      "./optionImg/3.jpg",
+      "./optionImg/4.jpg"
+    ],
+    "correct": 0,
+    "explanation": "45% = 45/100 = 9/20."
+  },
+  {
+    "questionNo": "Q2",
+    "question": "What is the percentage equivalent of <sup>1</sup>&frasl;<sub>4</sub>?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "correct": 3,
+    "explanation": "1/4 = 25%."
+  },
+  {
+    "questionNo": "Q3",
+    "question": "Convert 85% to a decimal.",
+    "options": [
+      "85",
+      "8.5",
+      "0.085",
+      "0.85"
+    ],
+    "correct": 3,
+    "explanation": "85% = 85/100 = 0.85."
+  },
+  {
+    "questionNo": "Q4",
+    "question": "What is the percentage form of 0.23?",
+    "options": [
+      "23%",
+      "2.3%",
+      "230%",
+      "0.023%"
+    ],
+    "correct": 0,
+    "explanation": "0.23 = (0.23 * 100)% = 23%."
+  },
+  {
+    "questionNo": "Q5",
+    "question": "Estimate the coloured part percentage of the whole circle in the given image.<br><img width='90%' src='./assests/images/15.png'>",
+    "options": [
+      "65%",
+      "70%",
+      "78%",
+      "80%"
+    ],
+    "correct": 1,
+    "explanation": "The coloured part can be represented as 7/10. Converting 7/10 into percentage: 7/10 * 100% = 70%."
+  },
+  {
+    "questionNo": "Q6",
+    "question": "Convert the following mixed fraction into percentage.<br><img width='70%' src='./assests/images/20.png'>",
+    "options": [
+      "189.22%",
+      "189%",
+      "183.33%",
+      "185.55%"
+    ],
+    "correct": 2,
+    "explanation": "First, convert the mixed fraction to an improper fraction: 1 5/6 = 11/6. Now, converting 11/6 into percentage: (11/6) * 100% = 183.33%."
+  },
+  {
+    "questionNo": "Q7",
+    "question": "Convert 0.035 into percentage.",
+    "options": [
+      "35%",
+      "3.5%",
+      "350%",
+      "0.35%"
+    ],
+    "correct": 1,
+    "explanation": "0.035 = (0.035 * 100)% = 3.5%."
+  },
+  {
+    "questionNo": "Q8",
+    "question": "Convert 120% to fraction in simplest form.",
+    "options": [
+      "./optionImg/5.jpg",
+      "./optionImg/6.jpg",
+      "./optionImg/7.jpg",
+      "./optionImg/8.jpg"
+    ],
+    "correct": 2,
+    "explanation": "120% = 120/100 = 12/10 = 6/5."
+  },
+  {
+    "questionNo": "Q9",
+    "question": "Convert the fraction <sup>11</sup>&frasl;<sub>15</sub> to percentage.",
+    "options": [
+      "53.33%",
+      "63.33%",
+      "73.33%",
+      "83.33%"
+    ],
+    "correct": 2,
+    "explanation": "11/15 = (11/15) * 100% = 73.33%."
+  },
+  {
+    "questionNo": "Q10",
+    "question": "Convert 0.22% to decimal.",
+    "options": [
+      "0.22",
+      "0.022",
+      "0.0202",
+      "0.0022"
+    ],
+    "correct": 3,
+    "explanation": "0.22% = 0.22/100 = 0.0022."
+  }
+]
